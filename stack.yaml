@@ -1,0 +1,11 @@
+flags: {}
+extra-package-dbs: []
+packages:
+- '.'
+- location:
+    git: git@github.com:glguy/irc-core
+    commit: d31d51202a381ac24cd8cf333020ea2a6564533c
+  extra-dep: true
+extra-deps:
+- config-value-0.5
+resolver: nightly-2016-08-06
